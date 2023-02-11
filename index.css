@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.placeholder-1 {
+  width: 33.3%;
+}
+
+.placeholder-2 {
+  width: 33.3%;
+}
+
+.placeholder-3 {
+  width: 33.3%;
+}
+
+.productImages {
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+}
+
+.contact-us {
+  background-color: #474b56;;
+  color: white;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+
+  
+}
+
+.footerText{
+  text-align: left;
+  margin-left: 3vw;
+  margin-bottom: 2vh;
+  
+}
+.contactText{
+  text-align: left;
+  margin-left: 3vw;
+  line-height: 1vh
+  
+}
+
+.socials {
+margin-left: 10px;
+}
+.logo{
+  width: 100%;
+  height: auto;
+ margin-top: 1.5vh;
+}
+
+.banner{
+  width: 100%;
+  height: auto;
+}
+
+.aboutHeading{
+padding-top: 5vh;
+
+}
+
+.poductGap{
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  
+  }
+.aboutText{
+text-align: justify;
+padding-top: 1vh;
+padding-left: 4vw;
+padding-right: 5vw;
+padding-bottom: 4vh;
+}
+
+
+
+
+
+.App-header {
+  width:100%;
+  background-color: #474b56;
+  min-height: 12vh;
+  display: flex;
+  max-height: 12vh;
+  
+  justify-content: center;
+  align-items: flex-start;
+
+  
+}
+
+.WelcomeText{
+  margin-right: 3vw;
+  float: right;
+  padding: 20px;
+  text-align:right;
+  align-items: flex-end;
+  color: rgb(247, 244, 244);
+  font-size: 12pt;
+  font-weight:300;
+}
+
+.nav-links{
+  
+  float: left;
+  padding-left: 20px;
+  margin-top: 3.7vh;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+
+  text-align: left;
+}
+
+.navbar a:hover {
+color: rgb(166, 164, 164);
+
+  
+}
+
+.navbar a:focus {
+  color: rgb(158, 170, 191);
+  
+    
+  }
+
+.test{
+  background-color: white;
+}
+
+/*--------- Interest Calc Start---------------*/
+body {
+  font-family: Arial;
+}
+
+.paymentText{
+  
+  text-align: left;
+  padding-left: 1vw;
+  margin-right:20vw;
+  color: white;
+ 
+  
+  }
+
+  .paymentHeader{
+  
+    text-align: left;
+    padding-top: 2vh;
+    padding-left: 1vw;
+    margin-right:3vw;
+    margin-bottom:0.1vh;
+    font-size: small;
+    color: white
+    
+  } 
+
+.inputBox{
+width: 160px;
+margin-bottom: 1vh;
+
+}
+
+
+input[type=submit] {
+  width: 80px;
+  height:40px;
+  background-color: #04AA6D;
+  color: white;
+  padding: 6px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+.select{
+  width:50%;
+  height: 45px;
+}
+
+
+.paymentBox{
+  background-color: #474b56;
+  width:320px;
+  margin: 30px;
+  border-radius: 5px;
+  padding:5px;
+  padding-bottom: 5px;
+ 
+
+}
+.outPut{
+  text-align: left;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+  margin-bottom: 0%;
+  margin-left: 1.5vw;
+
+
+
+
+}
+
+
+/*--------- Interest Calc End---------------*/
